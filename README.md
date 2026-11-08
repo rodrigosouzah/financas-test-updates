@@ -1,19 +1,28 @@
 # Finanças Teste
 
-Download-only distribution for the macOS test app. This repository contains public release builds, installation notes and a signed Sparkle update feed; it does not contain the app source code or anyone’s financial records.
+Public download-only distribution for the macOS test app. No personal financial records or app source code are published here.
 
-## Install once
+## Download and install
 
-Download the latest universal ZIP from [Releases](https://github.com/rodrigosouzah/financas-test-updates/releases/latest), unzip it, and replace **Financas Teste.app** in Applications. Keep the same app name and do not delete your profiles or use the expense reset.
+Use [the latest release](https://github.com/rodrigosouzah/financas-test-updates/releases/latest) and download **only the Financas-Teste-…-Universal.zip** asset, not the automatically generated Source code ZIP. Unzip it, quit the old app and replace **Financas Teste.app** in Applications. Keep your profiles and do not reset expenses.
 
-Install version **0.2.1 or newer** once to get the stable update feed, installed-version label in the bottom-right corner, and bell notifications with a **Baixar nova versão** link. Version 0.1 cannot update itself. Version 0.2 used a latest-download feed address that returned timeouts and is superseded by 0.2.1. Later releases check automatically; manual checking is in the app menu under **Buscar atualizações…**. Downloads and the update feed are signed with the app’s update key. Editing code alone does not publish an update: each new build is packaged, signed and released.
+Install **0.2.2 or newer**. Version 0.2.1 had a confirmed Sparkle framework loading-path error that prevented launch; 0.2.2 corrects it. The previous failed package reproduces the library-load error, while the corrected archive passes framework resolution on both architectures and dynamic loading on Apple silicon. The tester still validates the app window and interactions.
 
-The stable feed is [appcast.xml](https://raw.githubusercontent.com/rodrigosouzah/financas-test-updates/main/appcast.xml). Public download hashes and signatures were verified after publication; end-to-end updating on the tester’s Mac still needs validation.
+## Features
 
-## Data
+- Despesas shows the purchase total and a separate read-only **Parcela do mês** for the selected month.
+- Red row-delete controls with confirmation; Importar Excel supports cell/row selection, filling selected cells with one copied value, deleting selected rows and exporting Excel.
+- Dates automatically insert slashes while typing ddmmyyyy.
+- **Cartões | Contas** separates cards and bank accounts. Account cards show reported balance/date and cumulative projected balance through the selected month. The projection excludes movements already covered by the reported-balance date.
+- Expenses can be allocated to a payment account; salary and other income can be allocated to a destination account.
+- Brown-and-gold wallet icon, installed version at bottom right, and update notifications with **Baixar nova versão** links.
 
-Entries, imported rows, registered cards, people, savings goals, widget order and visibility remain in the existing local profile directory on each Mac. Updates replace the application bundle. They do not upload or overwrite local profile data. Cloud profile synchronization is not implemented.
+## Updates and data
+
+The stable signed feed is [appcast.xml](https://raw.githubusercontent.com/rodrigosouzah/financas-test-updates/main/appcast.xml). Future packaged, signed and published builds can update through Sparkle; manual checking is **Buscar atualizações…** in the app menu. Editing source alone does not publish an update.
+
+Entries, imported rows, cards, bank accounts, people, savings goals, and widget preferences remain in each Mac’s existing local profile directory. Updates replace the application bundle; no financial records are uploaded. Cloud profile sync and AI agents are not implemented.
 
 ## Test distribution
 
-Requires macOS 14 or newer; supports Apple silicon and Intel Macs. This beta is locally signed and is **not Apple-notarized**. If blocked, follow [Apple’s Open Anyway instructions](https://support.apple.com/102445) only if you trust the sender. Do not disable macOS security protections.
+macOS 14+; universal Apple silicon and Intel. Locally signed, **not Apple-notarized**. Gatekeeper may still require [Apple’s Open Anyway procedure](https://support.apple.com/102445) until Developer ID signing/notarization is configured. Do not disable macOS security protections.

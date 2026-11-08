@@ -10,6 +10,7 @@ Install **0.2.2 or newer**. Version 0.2.1 had a confirmed Sparkle framework load
 
 ## Features
 
+- **0.2.3:** rename spending types through **Tipo → Editar nomes dos tipos…** in Despesas, Importar Excel or the new-expense form. Names are saved per profile and update linked entries and widgets without changing financial values.
 - Despesas shows the purchase total and a separate read-only **Parcela do mês** for the selected month.
 - Red row-delete controls with confirmation; Importar Excel supports cell/row selection, filling selected cells with one copied value, deleting selected rows and exporting Excel.
 - Dates automatically insert slashes while typing ddmmyyyy.

@@ -6,7 +6,9 @@ Download-only distribution for the macOS test app. This repository contains publ
 
 Download the latest universal ZIP from [Releases](https://github.com/rodrigosouzah/financas-test-updates/releases/latest), unzip it, and replace **Financas Teste.app** in Applications. Keep the same app name and do not delete your profiles or use the expense reset.
 
-Version 0.2 adds in-app updates. The previous 0.1 build cannot update itself and needs this one-time replacement. Later releases check automatically; manual checking is in the app menu under **Buscar atualizações…**. Downloads and the update feed are signed with the app’s update key.
+Install version **0.2.1 or newer** once to get the stable update feed, installed-version label in the bottom-right corner, and bell notifications with a **Baixar nova versão** link. Version 0.1 cannot update itself. Version 0.2 used a latest-download feed address that returned timeouts and is superseded by 0.2.1. Later releases check automatically; manual checking is in the app menu under **Buscar atualizações…**. Downloads and the update feed are signed with the app’s update key. Editing code alone does not publish an update: each new build is packaged, signed and released.
+
+The stable feed is [appcast.xml](https://raw.githubusercontent.com/rodrigosouzah/financas-test-updates/main/appcast.xml). Public download hashes and signatures were verified after publication; end-to-end updating on the tester’s Mac still needs validation.
 
 ## Data
 

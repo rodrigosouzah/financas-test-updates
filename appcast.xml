@@ -4,16 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>Finanças Teste</title>
     <item>
-      <title>Finanças Teste 0.2.1</title>
-      <pubDate>Sun, 08 Nov 2026 11:14:39 GMT</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <title>Finanças Teste 0.2.2</title>
+      <pubDate>Sun, 08 Nov 2026 12:04:54 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>Melhorias em Despesas, importação e identificação de bancos. Seus dados locais são mantidos.</description>
-      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.1/Financas-Teste-0.2.1-Universal.zip" length="6496015" type="application/octet-stream" sparkle:edSignature="rjCllFuePxiO+ooeToffp5j7UPi2CWrjPN5s2RVKmjX51Xj3PqcmxX1qIAnebBcjRLp4VdRow7UJ4JOYh6bGBw=="></enclosure>
+      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.2/Financas-Teste-0.2.2-Universal.zip" length="9235450" type="application/octet-stream" sparkle:edSignature="T97tNaz/TiouxrxfGTqD9wBjNBkglbawWTodm8Rhv9l+bsd31lV54PartCqV8wwm0UB1EEFqutpjKclVOozLBw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QsRgOtqPkqTVSiig5Tp+5ifRAQDIpK2HEHn9BtCJfQdolZ4d5CQXzKH3DA4Sb8E1o+/nHJ84WSvoif9LxfWNCA==
+edSignature: nDW/skqP0teBSNPJxOKytLdBV6inuhAjr4o+LAo+ReiNYvq4LTxr17O93r2OqWVI6AjfuC5SEwDN6tVRzmzFAQ==
 length: 1192
 -->

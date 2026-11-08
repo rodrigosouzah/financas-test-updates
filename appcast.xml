@@ -4,16 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>Finanças Teste</title>
     <item>
-      <title>Finanças Teste 0.2.3</title>
-      <pubDate>Sun, 08 Nov 2026 13:25:59 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <title>Finanças Teste 0.2.5</title>
+      <pubDate>Sun, 08 Nov 2026 22:20:41 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>Renomeie os tipos de gastos pelo menu Tipo. Lançamentos e widgets acompanham o novo nome; seus valores e dados locais são mantidos.</description>
-      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.3/Financas-Teste-0.2.3-Universal.zip" length="9299018" type="application/octet-stream" sparkle:edSignature="IKFLwlgj8J1qy0a1n/J+9f7rCOzluevesgC1O7tgkY7qW+VIKnq1Fu/2GXU4uD84rZaPLI3pakGHJ75pdGDVDw=="></enclosure>
+      <description>Novo espaço Nuvem: conecte a mesma conta da web e do iPhone pelo navegador. Perfis locais ficam separados e preservados; sem migração automática.</description>
+      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.5/Financas-Teste-0.2.5-Universal.zip" length="9533764" type="application/octet-stream" sparkle:edSignature="vjuxOc/wBIdnOpeK1TYHV5+uoRrIKSUMLmKWcd99PPynRgvgI2AhBSME+0du3u2t0hTyxLlI6tf++x9srfA9DQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: WiUFcT0mLN4uBR+tpPSsrGfSTMlvQNYmHYR8OFOMTlxU6I6Ix88XbSS07Ayfpr48ZL1Ws9jxMzrKNyTKwgObBQ==
-length: 1228
+edSignature: BXSx5dSxnohcevyArMiaMa5Ie5trcX4Zk4F4ZJjbEUEhaVFiR8N9bhNnhTiY1noB6WCYSJqapw0z+5a54VtsCQ==
+length: 1244
 -->

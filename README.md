@@ -10,7 +10,9 @@ Install **0.2.2 or newer**. Version 0.2.1 had a confirmed Sparkle framework load
 
 ## Same tools on every device
 
-**0.2.6** defaults to **Nuvem** (a previously saved mode choice is respected). Choose **Conectar minha conta**, sign in with the same verified email and password as the web/iPhone app, compare the code and authorize this Mac. Nuvem runs the same web application, with the same tools, calculations and cloud profiles; web improvements are available there without a new native download. **Perfis locais** retains the older local interface and records separately. No automatic migration or merge is performed.
+**0.2.7** defaults to **Nuvem** (a previously saved mode choice is respected). Choose **Conectar minha conta**, sign in with the same verified email and password as the web/iPhone app, compare the code and authorize this Mac. Nuvem runs the same web application, with the same tools, calculations and cloud profiles; web improvements are available there without a new native download. **Perfis locais** retains the older local interface and records separately. No automatic migration or merge is performed.
+
+Version 0.2.7 adds clear pending/blocked/rejected account messages, origin refresh and email sign-out handling. Owner administration and Superuser chat tools come from the live web workspace; only the initial owner manages account access and roles.
 
 ## Local-profile features
 
@@ -26,7 +28,7 @@ Install **0.2.2 or newer**. Version 0.2.1 had a confirmed Sparkle framework load
 
 The stable signed feed is [appcast.xml](https://raw.githubusercontent.com/rodrigosouzah/financas-test-updates/main/appcast.xml). Future packaged, signed and published builds can update through Sparkle; manual checking is **Buscar atualizações…** in the app menu. Editing source alone does not publish an update.
 
-Entries, imported rows, cards, bank accounts, people, savings goals, and widget preferences remain in each Mac’s existing local profile directory. Updates replace the application bundle; no financial records are uploaded. Local profiles are not automatically uploaded or merged. Cloud data is available in the separate Nuvem space. AI agents remain under construction.
+Entries, imported rows, cards, bank accounts, people, savings goals, and widget preferences remain in each Mac’s existing local profile directory. Updates replace the application bundle; no financial records are uploaded. Local profiles are not automatically uploaded or merged. Cloud data is available in the separate Nuvem space. Assistente VR is available in Nuvem according to the account’s server-side permissions. Magic Suggestions remains under construction.
 
 ## Test distribution
 

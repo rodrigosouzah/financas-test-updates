@@ -4,16 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>Finanças Teste</title>
     <item>
-      <title>Finanças Teste 0.2.6</title>
-      <pubDate>Sun, 08 Nov 2026 22:22:27 GMT</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+      <title>Finanças Teste 0.2.7</title>
+      <pubDate>Mon, 09 Nov 2026 08:27:26 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>Novo espaço Nuvem: conecte a mesma conta da web e do iPhone pelo navegador. Perfis locais ficam separados e preservados; sem migração automática.</description>
-      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.6/Financas-Teste-0.2.6-Universal.zip" length="9533634" type="application/octet-stream" sparkle:edSignature="FvBH7+A/NchujrAQNztH2nz1uKk4fHgIzaMsgUewTIDve+jOM8vVnFBUs4FOgTdD7BC2rQ1qoQbx7LqkJbLBBg=="></enclosure>
+      <description>Nuvem com Assistente VR e painel Admin conforme permissões da conta. Mensagens de aprovação e bloqueio, atualização da versão web e saída por email corrigidas. Perfis locais preservados e separados.</description>
+      <enclosure url="https://github.com/rodrigosouzah/financas-test-updates/releases/download/v0.2.7/Financas-Teste-0.2.7-Universal.zip" length="9539265" type="application/octet-stream" sparkle:edSignature="8ETfETXL/iLVqZhtOXiirsfQKyL/LN8FUeaT4+NS/SiXl3Fv5of0ccIHA5eJcCuXA8UBEdkQC9wHzEn3KL1tDA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: RKpB76henHWU7ZLUhz7X3kHlZDyscq8Xqd6qfhV838wMHNAH1x4ijcvyo85xnOs6/PdapYzeuFLgzjCUdwu0Cw==
-length: 1244
+edSignature: kLQ08rd+0jRyMYElF/wve7Mkek0PsAv0dzEH6JfbOuDqyEJ+4gVf7oW58/ycJmVgtwbiCnS7fJM2q1S0rUk9Cw==
+length: 1300
 -->
